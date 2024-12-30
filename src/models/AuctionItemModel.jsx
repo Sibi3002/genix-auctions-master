@@ -25,9 +25,9 @@ const AuctionItemSchema = new mongoose.Schema({
 		},
 	],
 	winner: {
-		bidder: { type: String, required: true },
-		amount: { type: Number, required: true },
-		date: { type: Date, required: true },
+		bidder: { type: String },
+		amount: { type: Number },
+		date: { type: Date},
 	},
 	likedBy: [{ type: String }],
 })

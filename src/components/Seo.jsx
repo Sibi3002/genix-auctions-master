@@ -8,14 +8,14 @@ const Seo = () => {
 			<meta
 				name="description"
 				key="description"
-				content="Done By P Dharun Ram Sarathy"
+				content="Done By Sibisugan K"
 			/>
 
 			<meta property="og:title" key="og:title" content="Genix Auctions" />
 			<meta
 				name="og:description"
 				key="og:description"
-				content="Done By P Dharun Ram Sarathy"
+				content="Done By Sibisugan K"
 			/>
 		</Head>
 	)
